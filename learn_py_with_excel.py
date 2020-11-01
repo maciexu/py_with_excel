@@ -7,5 +7,6 @@ S1 = pd.Series(['a', 'b', 'c', 'd', 'e'])
 print(S1)
 
 df = pd.read_excel(r'C:\Users\mengx\Downloads\Data_Extract_From_Education_Statistics_-_All_Indicators.xlsx')
+df = pd.read_excel(r'C:\Users\mengx\Downloads\Data_Extract_From_Education_Statistics_-_All_Indicators.xlsx', sheetname = 'Data')
 print(df)
 
